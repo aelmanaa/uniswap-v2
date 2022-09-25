@@ -22,7 +22,7 @@ Major improvements from v1:
 
 ## Guide
 
-The original contracts and tests have been rewritten to support Solidity v8.7.0 and hardhat. The purpose is to help you walk through the original implementation.
+The original contracts and tests have been rewritten to support Solidity v8.17.0 and hardhat. The purpose is to help you walk through the original implementation.
 The rewritten implementation can be found under:
 
 - Contracts
@@ -212,6 +212,6 @@ proper (simple) overflow arithmetic to compute deltas_
 
 ##### extra functions
 
-###### Syn or Skim
+###### Sync or Skim
 
 Recovery mechanism. See [whitepaper p7](https://uniswap.org/whitepaper.pdf).
