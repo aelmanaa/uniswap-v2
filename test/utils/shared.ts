@@ -1,8 +1,10 @@
+import { MAX_INTEGER_BIGINT } from '@ethereumjs/util';
 import { BigNumber, BigNumberish, utils, constants } from 'ethers';
 import { keccak256, defaultAbiCoder, solidityPack, toUtf8Bytes, getAddress, BytesLike } from 'ethers/lib/utils';
 import { ERC20 } from '../../typechain-types';
 
 export const bigNumberify = (value: BigNumberish) => BigNumber.from(value);
+export const MaxUint256 = bigNumberify(MAX_INTEGER_BIGINT);
 
 export const MINIMUM_LIQUIDITY = bigNumberify(10).pow(3);
 

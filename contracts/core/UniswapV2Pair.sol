@@ -84,7 +84,7 @@ contract UniswapV2Pair is IUniswapV2Pair, UniswapV2ERC20, ReentrancyGuard {
 
         if (feeOn) kLast = uint256(reserve0) * reserve1; // reserve0 and reserve1 are up-to-date
 
-        emit Mint(to, amount0, amount1);
+        emit Mint(msg.sender, amount0, amount1);
     }
 
     function burn(address to)

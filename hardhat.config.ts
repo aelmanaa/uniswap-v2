@@ -4,7 +4,7 @@ import 'hardhat-gas-reporter';
 
 const config: HardhatUserConfig = {
   gasReporter: {
-    enabled: true,
+    enabled: false,
   },
   solidity: {
     compilers: [
